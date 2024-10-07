@@ -71,7 +71,11 @@
     "materials" : [
         {
             "name" : "Material",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [ 1.000, 0.766, 0.336, 1.0 ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.1
+            }
         }
     ],
     "meshes" : [
